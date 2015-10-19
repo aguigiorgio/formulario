@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Auto</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="valor.js"></script>
+	<style type="text/css">
+		*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Montserrat,Arial;
+	}
+	form{
+		width:400px;
+		background: #fff;
+		margin: 10px;
+		padding: 10px;
+		border:5px solid #0774d9;
+		border-radius: 5px;
+	}
+	div {
+  		margin: .4em 0;
+	}
+	div label {
+ 		 width: 25%;
+  		float: left;
+	}
+	input[type="checkbox"]{
+		padding: 5px;
+		margin: 3px;
+		border-radius: 2px;
+	}
+	input[type="text"],input[type="text"],input[type="submit"],select,textarea{
+		padding: 5px;
+		margin:2px;
+		border:2px  solid #0774d9;
+		border-radius: 5px;
+	}
+	textarea{
+		width: 95%;
+	}
+	</style>
+</head>
+<body>
+<form name="formulario">
+	<div>
+	<label for="matricula">Matrícula:</label>
+	<input type="text" id="matricula"></div><br>
+	
+	<div>
+	<label for="marca">Marca:</label>
+	<select id="marca">
+		<option value="1">Volvo</option>
+		<option value="2">Mercedes</option>
+		<option value="3">Ferrari</option>
+		<option value="4">lamborgini</option>
+	</select></div><br>
+	<div>
+	<label for="modelo">Modelo:</label>
+	<select id="modelo">
+		<option value="1">2005</option>
+		<option value="2">2008</option>
+		<option value="3">2011</option>
+		<option value="4">2014</option>
+	</select></div><br>
+	<div>
+	<label for="Registro">Registrar:</label>
+	<input type="radio" value="Entrada" name="Registro" id="Entrada"/> Entrada
+	<input type="radio" value="Salida" name="Registro" id="Salida"/> Salida</div><br>
+
+	<label for="observacion">Observaciones</label><br>
+	<textarea id="observacion"></textarea><br>
+	<label>Detalles:</label><br>
+	<input type="checkbox" value="pintura" id="pintura" name="pintura">Pintura
+	<input type="checkbox" value="cristal" id="cristal" name="cristal">Cristal
+	<input type="checkbox" value="luces" id="luces" name="luces">Luces
+	<input type="checkbox" value="espejo" id="espejo" name="espejo">Espejo<br>
+	<input type="submit" name="submit" id="submit" value="Guardar" onclick="valores();">
+
+
+</form>
+</body>
+</html>
