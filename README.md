@@ -3,4 +3,4 @@
 Simple formulario utilizando html, css y javascript
 
 Cualquier duda comentario o sugerencia contáctame a:
-![](https://cdn2.iconfinder.com/data/icons/social-18/512/Twitter-3-32.png)@aguigiorgio ó ![](https://cdn4.iconfinder.com/data/icons/linecon/512/message-32.png)aguigiorgio@gmail.com
+![](https://cdn2.iconfinder.com/data/icons/social-18/512/Twitter-3-16.png)@aguigiorgio ó ![](https://cdn4.iconfinder.com/data/icons/linecon/512/message-16.png)aguigiorgio@gmail.com
