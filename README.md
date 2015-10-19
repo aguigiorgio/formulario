@@ -1,5 +1,6 @@
 # formulario.html
 ![](http://img110.xooimage.com/files/2/e/6/blogfor-4d25a3c.png)
+
 Simple formulario utilizando html, css y javascript
 
 Cualquier duda comentario o sugerencia contáctame a:
